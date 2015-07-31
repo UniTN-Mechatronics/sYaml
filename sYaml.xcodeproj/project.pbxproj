@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		880672A11B6BC3F800EE8F70 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 880672971B6BC3F800EE8F70 /* api.c */; };
+		880672A21B6BC3F800EE8F70 /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 880672981B6BC3F800EE8F70 /* dumper.c */; };
+		880672A31B6BC3F800EE8F70 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 880672991B6BC3F800EE8F70 /* emitter.c */; };
+		880672A41B6BC3F800EE8F70 /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729A1B6BC3F800EE8F70 /* loader.c */; };
+		880672A51B6BC3F800EE8F70 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729B1B6BC3F800EE8F70 /* parser.c */; };
+		880672A61B6BC3F800EE8F70 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729C1B6BC3F800EE8F70 /* reader.c */; };
+		880672A71B6BC3F800EE8F70 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729D1B6BC3F800EE8F70 /* scanner.c */; };
+		880672A81B6BC3F800EE8F70 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729E1B6BC3F800EE8F70 /* writer.c */; };
 		881675961B67CD450041FC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675951B67CD450041FC57 /* AppDelegate.swift */; };
 		881675981B67CD460041FC57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675971B67CD460041FC57 /* ViewController.swift */; };
 		8816759A1B67CD460041FC57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881675991B67CD460041FC57 /* Images.xcassets */; };
@@ -44,6 +52,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		880672931B6BC3F800EE8F70 /* yaml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
+		880672971B6BC3F800EE8F70 /* api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = api.c; sourceTree = "<group>"; };
+		880672981B6BC3F800EE8F70 /* dumper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dumper.c; sourceTree = "<group>"; };
+		880672991B6BC3F800EE8F70 /* emitter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = emitter.c; sourceTree = "<group>"; };
+		8806729A1B6BC3F800EE8F70 /* loader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loader.c; sourceTree = "<group>"; };
+		8806729B1B6BC3F800EE8F70 /* parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parser.c; sourceTree = "<group>"; };
+		8806729C1B6BC3F800EE8F70 /* reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reader.c; sourceTree = "<group>"; };
+		8806729D1B6BC3F800EE8F70 /* scanner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
+		8806729E1B6BC3F800EE8F70 /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = writer.c; sourceTree = "<group>"; };
+		8806729F1B6BC3F800EE8F70 /* yaml_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yaml_private.h; sourceTree = "<group>"; };
+		880672A91B6BC55600EE8F70 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		880672AA1B6BC69B00EE8F70 /* prepare_libyaml.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = prepare_libyaml.sh; sourceTree = "<group>"; };
 		881675901B67CD450041FC57 /* sYaml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sYaml.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		881675941B67CD450041FC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
 		881675951B67CD450041FC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,10 +108,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		880672911B6BC3F800EE8F70 /* libyaml */ = {
+			isa = PBXGroup;
+			children = (
+				880672921B6BC3F800EE8F70 /* include */,
+				880672961B6BC3F800EE8F70 /* src */,
+			);
+			path = libyaml;
+			sourceTree = "<group>";
+		};
+		880672921B6BC3F800EE8F70 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				880672A91B6BC55600EE8F70 /* config.h */,
+				880672931B6BC3F800EE8F70 /* yaml.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		880672961B6BC3F800EE8F70 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				880672971B6BC3F800EE8F70 /* api.c */,
+				880672981B6BC3F800EE8F70 /* dumper.c */,
+				880672991B6BC3F800EE8F70 /* emitter.c */,
+				8806729A1B6BC3F800EE8F70 /* loader.c */,
+				8806729B1B6BC3F800EE8F70 /* parser.c */,
+				8806729C1B6BC3F800EE8F70 /* reader.c */,
+				8806729D1B6BC3F800EE8F70 /* scanner.c */,
+				8806729E1B6BC3F800EE8F70 /* writer.c */,
+				8806729F1B6BC3F800EE8F70 /* yaml_private.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		881675871B67CD450041FC57 = {
 			isa = PBXGroup;
 			children = (
+				880672AA1B6BC69B00EE8F70 /* prepare_libyaml.sh */,
 				888C13A51B6B7A6700A66CEF /* App */,
+				880672911B6BC3F800EE8F70 /* libyaml */,
 				881675921B67CD450041FC57 /* sYaml */,
 				881675A51B67CD460041FC57 /* sYamlTests */,
 				888C13931B6A530E00A66CEF /* sYamlMain */,
@@ -288,9 +344,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880672A41B6BC3F800EE8F70 /* loader.c in Sources */,
 				881675B91B67F2660041FC57 /* sYaml.m in Sources */,
 				881675981B67CD460041FC57 /* ViewController.swift in Sources */,
+				880672A71B6BC3F800EE8F70 /* scanner.c in Sources */,
+				880672A11B6BC3F800EE8F70 /* api.c in Sources */,
+				880672A51B6BC3F800EE8F70 /* parser.c in Sources */,
 				881675961B67CD450041FC57 /* AppDelegate.swift in Sources */,
+				880672A21B6BC3F800EE8F70 /* dumper.c in Sources */,
+				880672A31B6BC3F800EE8F70 /* emitter.c in Sources */,
+				880672A61B6BC3F800EE8F70 /* reader.c in Sources */,
+				880672A81B6BC3F800EE8F70 /* writer.c in Sources */,
 				881675B41B67CD920041FC57 /* sYaml.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,14 +487,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"HAVE_CONFIG_H=1",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/libyaml/include",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
 				);
 				INFOPLIST_FILE = "$(PROJECT_DIR)/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -443,14 +510,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_CONFIG_H=1";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/libyaml/include",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/usr/local/include,
 				);
 				INFOPLIST_FILE = "$(PROJECT_DIR)/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
 			};
