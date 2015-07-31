@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881675961B67CD450041FC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675951B67CD450041FC57 /* AppDelegate.swift */; };
+		881675981B67CD460041FC57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675971B67CD460041FC57 /* ViewController.swift */; };
+		8816759A1B67CD460041FC57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881675991B67CD460041FC57 /* Images.xcassets */; };
+		881675A91B67CD460041FC57 /* sYamlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675A81B67CD460041FC57 /* sYamlTests.swift */; };
+		881675B41B67CD920041FC57 /* sYaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675B31B67CD920041FC57 /* sYaml.swift */; };
+		881675B91B67F2660041FC57 /* sYaml.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYaml.m */; };
+		881675BB1B68C4360041FC57 /* sYaml.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYaml.m */; };
+		881675BE1B6A14580041FC57 /* test.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 881675BD1B6A14580041FC57 /* test.yaml */; };
+		888C13951B6A530E00A66CEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C13941B6A530E00A66CEF /* main.swift */; };
+		888C13991B6A539B00A66CEF /* sYaml.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYaml.m */; };
+		888C139A1B6A53A000A66CEF /* sYaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675B31B67CD920041FC57 /* sYaml.swift */; };
+		888C13A91B6B7E3C00A66CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C13A71B6B7E3C00A66CEF /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881675A31B67CD460041FC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881675881B67CD450041FC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8816758F1B67CD450041FC57;
+			remoteInfo = sYaml;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		888C13901B6A530E00A66CEF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		881675901B67CD450041FC57 /* sYaml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sYaml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881675941B67CD450041FC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
+		881675951B67CD450041FC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		881675971B67CD460041FC57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		881675991B67CD460041FC57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		881675A21B67CD460041FC57 /* sYamlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sYamlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881675A71B67CD460041FC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881675A81B67CD460041FC57 /* sYamlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sYamlTests.swift; sourceTree = "<group>"; };
+		881675B21B67CD750041FC57 /* sYaml-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sYaml-Bridging-Header.h"; sourceTree = "<group>"; };
+		881675B31B67CD920041FC57 /* sYaml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sYaml.swift; sourceTree = "<group>"; };
+		881675B51B67CDF90041FC57 /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
+		881675B81B67F2660041FC57 /* sYaml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sYaml.m; sourceTree = "<group>"; };
+		881675BA1B67F2AA0041FC57 /* sYaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sYaml.h; sourceTree = "<group>"; };
+		881675BD1B6A14580041FC57 /* test.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.yaml; path = ../test.yaml; sourceTree = "<group>"; };
+		888C13921B6A530E00A66CEF /* sYamlMain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sYamlMain; sourceTree = BUILT_PRODUCTS_DIR; };
+		888C13941B6A530E00A66CEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		888C13A81B6B7E3C00A66CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8816758D1B67CD450041FC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816759F1B67CD460041FC57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C138F1B6A530E00A66CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881675871B67CD450041FC57 = {
+			isa = PBXGroup;
+			children = (
+				888C13A51B6B7A6700A66CEF /* App */,
+				881675921B67CD450041FC57 /* sYaml */,
+				881675A51B67CD460041FC57 /* sYamlTests */,
+				888C13931B6A530E00A66CEF /* sYamlMain */,
+				881675911B67CD450041FC57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881675911B67CD450041FC57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881675901B67CD450041FC57 /* sYaml.app */,
+				881675A21B67CD460041FC57 /* sYamlTests.xctest */,
+				888C13921B6A530E00A66CEF /* sYamlMain */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881675921B67CD450041FC57 /* sYaml */ = {
+			isa = PBXGroup;
+			children = (
+				881675B81B67F2660041FC57 /* sYaml.m */,
+				881675BA1B67F2AA0041FC57 /* sYaml.h */,
+				881675B51B67CDF90041FC57 /* module.map */,
+				881675B21B67CD750041FC57 /* sYaml-Bridging-Header.h */,
+				881675B31B67CD920041FC57 /* sYaml.swift */,
+			);
+			path = sYaml;
+			sourceTree = "<group>";
+		};
+		881675931B67CD450041FC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				881675941B67CD450041FC57 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		881675A51B67CD460041FC57 /* sYamlTests */ = {
+			isa = PBXGroup;
+			children = (
+				881675A81B67CD460041FC57 /* sYamlTests.swift */,
+				881675A61B67CD460041FC57 /* Supporting Files */,
+			);
+			path = sYamlTests;
+			sourceTree = "<group>";
+		};
+		881675A61B67CD460041FC57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				881675A71B67CD460041FC57 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888C13931B6A530E00A66CEF /* sYamlMain */ = {
+			isa = PBXGroup;
+			children = (
+				888C13941B6A530E00A66CEF /* main.swift */,
+			);
+			path = sYamlMain;
+			sourceTree = "<group>";
+		};
+		888C13A51B6B7A6700A66CEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				881675BD1B6A14580041FC57 /* test.yaml */,
+				881675951B67CD450041FC57 /* AppDelegate.swift */,
+				881675971B67CD460041FC57 /* ViewController.swift */,
+				881675991B67CD460041FC57 /* Images.xcassets */,
+				888C13A71B6B7E3C00A66CEF /* Main.storyboard */,
+				881675931B67CD450041FC57 /* Supporting Files */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8816758F1B67CD450041FC57 /* sYaml */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881675AC1B67CD460041FC57 /* Build configuration list for PBXNativeTarget "sYaml" */;
+			buildPhases = (
+				8816758C1B67CD450041FC57 /* Sources */,
+				8816758D1B67CD450041FC57 /* Frameworks */,
+				8816758E1B67CD450041FC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sYaml;
+			productName = sYaml;
+			productReference = 881675901B67CD450041FC57 /* sYaml.app */;
+			productType = "com.apple.product-type.application";
+		};
+		881675A11B67CD460041FC57 /* sYamlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881675AF1B67CD460041FC57 /* Build configuration list for PBXNativeTarget "sYamlTests" */;
+			buildPhases = (
+				8816759E1B67CD460041FC57 /* Sources */,
+				8816759F1B67CD460041FC57 /* Frameworks */,
+				881675A01B67CD460041FC57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881675A41B67CD460041FC57 /* PBXTargetDependency */,
+			);
+			name = sYamlTests;
+			productName = sYamlTests;
+			productReference = 881675A21B67CD460041FC57 /* sYamlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		888C13911B6A530E00A66CEF /* sYamlMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888C13981B6A530E00A66CEF /* Build configuration list for PBXNativeTarget "sYamlMain" */;
+			buildPhases = (
+				888C138E1B6A530E00A66CEF /* Sources */,
+				888C138F1B6A530E00A66CEF /* Frameworks */,
+				888C13901B6A530E00A66CEF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sYamlMain;
+			productName = sYamlMain;
+			productReference = 888C13921B6A530E00A66CEF /* sYamlMain */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881675881B67CD450041FC57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = UniTN;
+				TargetAttributes = {
+					8816758F1B67CD450041FC57 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					881675A11B67CD460041FC57 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8816758F1B67CD450041FC57;
+					};
+					888C13911B6A530E00A66CEF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 8816758B1B67CD450041FC57 /* Build configuration list for PBXProject "sYaml" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881675871B67CD450041FC57;
+			productRefGroup = 881675911B67CD450041FC57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8816758F1B67CD450041FC57 /* sYaml */,
+				881675A11B67CD460041FC57 /* sYamlTests */,
+				888C13911B6A530E00A66CEF /* sYamlMain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8816758E1B67CD450041FC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C13A91B6B7E3C00A66CEF /* Main.storyboard in Resources */,
+				8816759A1B67CD460041FC57 /* Images.xcassets in Resources */,
+				881675BE1B6A14580041FC57 /* test.yaml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881675A01B67CD460041FC57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8816758C1B67CD450041FC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881675B91B67F2660041FC57 /* sYaml.m in Sources */,
+				881675981B67CD460041FC57 /* ViewController.swift in Sources */,
+				881675961B67CD450041FC57 /* AppDelegate.swift in Sources */,
+				881675B41B67CD920041FC57 /* sYaml.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816759E1B67CD460041FC57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881675A91B67CD460041FC57 /* sYamlTests.swift in Sources */,
+				881675BB1B68C4360041FC57 /* sYaml.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888C138E1B6A530E00A66CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888C13951B6A530E00A66CEF /* main.swift in Sources */,
+				888C139A1B6A53A000A66CEF /* sYaml.swift in Sources */,
+				888C13991B6A539B00A66CEF /* sYaml.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881675A41B67CD460041FC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8816758F1B67CD450041FC57 /* sYaml */;
+			targetProxy = 881675A31B67CD460041FC57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888C13A71B6B7E3C00A66CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888C13A81B6B7E3C00A66CEF /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881675AA1B67CD460041FC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881675AB1B67CD460041FC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		881675AD1B67CD460041FC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "$(PROJECT_DIR)/App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881675AE1B67CD460041FC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "$(PROJECT_DIR)/App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
+			};
+			name = Release;
+		};
+		881675B01B67CD460041FC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = sYamlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sYaml.app/Contents/MacOS/sYaml";
+			};
+			name = Debug;
+		};
+		881675B11B67CD460041FC57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = sYamlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sYaml.app/Contents/MacOS/sYaml";
+			};
+			name = Release;
+		};
+		888C13961B6A530E00A66CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
+			};
+			name = Debug;
+		};
+		888C13971B6A530E00A66CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8816758B1B67CD450041FC57 /* Build configuration list for PBXProject "sYaml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881675AA1B67CD460041FC57 /* Debug */,
+				881675AB1B67CD460041FC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881675AC1B67CD460041FC57 /* Build configuration list for PBXNativeTarget "sYaml" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881675AD1B67CD460041FC57 /* Debug */,
+				881675AE1B67CD460041FC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881675AF1B67CD460041FC57 /* Build configuration list for PBXNativeTarget "sYamlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881675B01B67CD460041FC57 /* Debug */,
+				881675B11B67CD460041FC57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888C13981B6A530E00A66CEF /* Build configuration list for PBXNativeTarget "sYamlMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888C13961B6A530E00A66CEF /* Debug */,
+				888C13971B6A530E00A66CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 881675881B67CD450041FC57 /* Project object */;
+}

@@ -1,0 +1,11 @@
+---
+str: "This is a String"
+flo: 12.3
+int: -3
+ary:
+  - 1
+  - 2
+  - 3
+hsh:
+  a: 1.2
+  b: 2.6
