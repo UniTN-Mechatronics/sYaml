@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8816758F1B67CD450041FC57"
-               BuildableName = "sYaml.app"
-               BlueprintName = "sYaml"
+               BuildableName = "sYamlApp.app"
+               BlueprintName = "sYamlApp"
                ReferencedContainer = "container:sYaml.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8816758F1B67CD450041FC57"
-            BuildableName = "sYaml.app"
-            BlueprintName = "sYaml"
+            BuildableName = "sYamlApp.app"
+            BlueprintName = "sYamlApp"
             ReferencedContainer = "container:sYaml.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +83,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8816758F1B67CD450041FC57"
-            BuildableName = "sYaml.app"
-            BlueprintName = "sYaml"
+            BuildableName = "sYamlApp.app"
+            BlueprintName = "sYamlApp"
             ReferencedContainer = "container:sYaml.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -108,8 +108,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8816758F1B67CD450041FC57"
-            BuildableName = "sYaml.app"
-            BlueprintName = "sYaml"
+            BuildableName = "sYamlApp.app"
+            BlueprintName = "sYamlApp"
             ReferencedContainer = "container:sYaml.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
