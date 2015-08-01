@@ -1,5 +1,6 @@
 module sYamlC [system] {
   header "../libyaml/include/yaml.h"
-  header "sYaml-Bridging-Header.h"
+  header "../libyaml/include/config.h"
+  header "sYamlC-Bridging-Header.h"
   export *
 }

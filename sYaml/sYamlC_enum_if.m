@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "sYaml.h"
+#import "sYamlC_enum_if.h"
 
 yaml_scalar_style_t yaml_node_style(yaml_node_t *n) {
   return n->data.scalar.style;

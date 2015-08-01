@@ -42,7 +42,9 @@ extension String {
 
 
 public class YAML {
-  
+  public func versionString() -> String {
+    return YAML_VERSION_STRING
+  }
   
   public init() {
     

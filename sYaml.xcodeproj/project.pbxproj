@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		880672A11B6BC3F800EE8F70 /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 880672971B6BC3F800EE8F70 /* api.c */; };
-		880672A21B6BC3F800EE8F70 /* dumper.c in Sources */ = {isa = PBXBuildFile; fileRef = 880672981B6BC3F800EE8F70 /* dumper.c */; };
-		880672A31B6BC3F800EE8F70 /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 880672991B6BC3F800EE8F70 /* emitter.c */; };
-		880672A41B6BC3F800EE8F70 /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729A1B6BC3F800EE8F70 /* loader.c */; };
-		880672A51B6BC3F800EE8F70 /* parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729B1B6BC3F800EE8F70 /* parser.c */; };
-		880672A61B6BC3F800EE8F70 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729C1B6BC3F800EE8F70 /* reader.c */; };
-		880672A71B6BC3F800EE8F70 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729D1B6BC3F800EE8F70 /* scanner.c */; };
-		880672A81B6BC3F800EE8F70 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729E1B6BC3F800EE8F70 /* writer.c */; };
 		880672B61B6BCA6900EE8F70 /* sYaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 880672B51B6BCA6900EE8F70 /* sYaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		880672BC1B6BCA6A00EE8F70 /* sYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880672B11B6BCA6900EE8F70 /* sYaml.framework */; };
 		880672C31B6BCA6A00EE8F70 /* sYamlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880672C21B6BCA6A00EE8F70 /* sYamlTests.swift */; };
@@ -26,24 +18,33 @@
 		880672CF1B6BCA7E00EE8F70 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729C1B6BC3F800EE8F70 /* reader.c */; };
 		880672D01B6BCA7E00EE8F70 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729D1B6BC3F800EE8F70 /* scanner.c */; };
 		880672D11B6BCA7E00EE8F70 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8806729E1B6BC3F800EE8F70 /* writer.c */; };
-		880672D21B6BCA9200EE8F70 /* sYaml.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYaml.m */; };
+		880672D21B6BCA9200EE8F70 /* sYamlC_enum_if.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYamlC_enum_if.m */; };
 		880672D31B6BCA9200EE8F70 /* sYaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675B31B67CD920041FC57 /* sYaml.swift */; };
+		880672D61B6C076A00EE8F70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C13A71B6B7E3C00A66CEF /* Main.storyboard */; };
+		880672D81B6C078800EE8F70 /* sYaml.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 880672B11B6BCA6900EE8F70 /* sYaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		880672D91B6C079000EE8F70 /* sYaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880672B11B6BCA6900EE8F70 /* sYaml.framework */; };
+		880672DE1B6C0C2900EE8F70 /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = 880672931B6BC3F800EE8F70 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		881675961B67CD450041FC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675951B67CD450041FC57 /* AppDelegate.swift */; };
 		881675981B67CD460041FC57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675971B67CD460041FC57 /* ViewController.swift */; };
 		8816759A1B67CD460041FC57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881675991B67CD460041FC57 /* Images.xcassets */; };
 		881675A91B67CD460041FC57 /* sYamlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675A81B67CD460041FC57 /* sYamlTests.swift */; };
-		881675B41B67CD920041FC57 /* sYaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675B31B67CD920041FC57 /* sYaml.swift */; };
-		881675B91B67F2660041FC57 /* sYaml.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYaml.m */; };
-		881675BB1B68C4360041FC57 /* sYaml.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYaml.m */; };
+		881675BB1B68C4360041FC57 /* sYamlC_enum_if.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYamlC_enum_if.m */; };
 		881675BE1B6A14580041FC57 /* test.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 881675BD1B6A14580041FC57 /* test.yaml */; };
+		8817EA1D1B6CA89100449D73 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 880672A91B6BC55600EE8F70 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888C13951B6A530E00A66CEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888C13941B6A530E00A66CEF /* main.swift */; };
-		888C13991B6A539B00A66CEF /* sYaml.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYaml.m */; };
+		888C13991B6A539B00A66CEF /* sYamlC_enum_if.m in Sources */ = {isa = PBXBuildFile; fileRef = 881675B81B67F2660041FC57 /* sYamlC_enum_if.m */; };
 		888C139A1B6A53A000A66CEF /* sYaml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881675B31B67CD920041FC57 /* sYaml.swift */; };
-		888C13A91B6B7E3C00A66CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888C13A71B6B7E3C00A66CEF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		880672BD1B6BCA6A00EE8F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881675881B67CD450041FC57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880672B01B6BCA6900EE8F70;
+			remoteInfo = sYaml;
+		};
+		880672D41B6C072D00EE8F70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 881675881B67CD450041FC57 /* Project object */;
 			proxyType = 1;
@@ -60,6 +61,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		880672D71B6C077300EE8F70 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				880672D81B6C078800EE8F70 /* sYaml.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		888C13901B6A530E00A66CEF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,7 +101,7 @@
 		880672BB1B6BCA6A00EE8F70 /* sYamlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sYamlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880672C11B6BCA6A00EE8F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880672C21B6BCA6A00EE8F70 /* sYamlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sYamlTests.swift; sourceTree = "<group>"; };
-		881675901B67CD450041FC57 /* sYaml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sYaml.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881675901B67CD450041FC57 /* sYamlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sYamlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		881675941B67CD450041FC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = App/Info.plist; sourceTree = "<group>"; };
 		881675951B67CD450041FC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		881675971B67CD460041FC57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,12 +109,13 @@
 		881675A21B67CD460041FC57 /* sYamlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sYamlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		881675A71B67CD460041FC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		881675A81B67CD460041FC57 /* sYamlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sYamlTests.swift; sourceTree = "<group>"; };
-		881675B21B67CD750041FC57 /* sYaml-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sYaml-Bridging-Header.h"; sourceTree = "<group>"; };
+		881675B21B67CD750041FC57 /* sYamlC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sYamlC-Bridging-Header.h"; sourceTree = "<group>"; };
 		881675B31B67CD920041FC57 /* sYaml.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sYaml.swift; sourceTree = "<group>"; };
 		881675B51B67CDF90041FC57 /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
-		881675B81B67F2660041FC57 /* sYaml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sYaml.m; sourceTree = "<group>"; };
-		881675BA1B67F2AA0041FC57 /* sYaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sYaml.h; sourceTree = "<group>"; };
+		881675B81B67F2660041FC57 /* sYamlC_enum_if.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sYamlC_enum_if.m; sourceTree = "<group>"; };
+		881675BA1B67F2AA0041FC57 /* sYamlC_enum_if.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sYamlC_enum_if.h; sourceTree = "<group>"; };
 		881675BD1B6A14580041FC57 /* test.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.yaml; path = ../test.yaml; sourceTree = "<group>"; };
+		8817EA1B1B6CA82500449D73 /* sYaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sYaml.h; sourceTree = "<group>"; };
 		888C13921B6A530E00A66CEF /* sYamlMain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sYamlMain; sourceTree = BUILT_PRODUCTS_DIR; };
 		888C13941B6A530E00A66CEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		888C13A81B6B7E3C00A66CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
@@ -129,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880672D91B6C079000EE8F70 /* sYaml.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +248,7 @@
 		881675911B67CD450041FC57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				881675901B67CD450041FC57 /* sYaml.app */,
+				881675901B67CD450041FC57 /* sYamlApp.app */,
 				881675A21B67CD460041FC57 /* sYamlTests.xctest */,
 				888C13921B6A530E00A66CEF /* sYamlMain */,
 				880672B11B6BCA6900EE8F70 /* sYaml.framework */,
@@ -247,10 +260,11 @@
 		881675921B67CD450041FC57 /* sYaml */ = {
 			isa = PBXGroup;
 			children = (
-				881675B81B67F2660041FC57 /* sYaml.m */,
-				881675BA1B67F2AA0041FC57 /* sYaml.h */,
+				881675B81B67F2660041FC57 /* sYamlC_enum_if.m */,
+				881675BA1B67F2AA0041FC57 /* sYamlC_enum_if.h */,
+				881675B21B67CD750041FC57 /* sYamlC-Bridging-Header.h */,
 				881675B51B67CDF90041FC57 /* module.map */,
-				881675B21B67CD750041FC57 /* sYaml-Bridging-Header.h */,
+				8817EA1B1B6CA82500449D73 /* sYaml.h */,
 				881675B31B67CD920041FC57 /* sYaml.swift */,
 			);
 			path = sYaml;
@@ -310,6 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				880672B61B6BCA6900EE8F70 /* sYaml.h in Headers */,
+				880672DE1B6C0C2900EE8F70 /* yaml.h in Headers */,
+				8817EA1D1B6CA89100449D73 /* config.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,14 +375,16 @@
 				8816758C1B67CD450041FC57 /* Sources */,
 				8816758D1B67CD450041FC57 /* Frameworks */,
 				8816758E1B67CD450041FC57 /* Resources */,
+				880672D71B6C077300EE8F70 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				880672D51B6C072D00EE8F70 /* PBXTargetDependency */,
 			);
 			name = sYamlApp;
 			productName = sYaml;
-			productReference = 881675901B67CD450041FC57 /* sYaml.app */;
+			productReference = 881675901B67CD450041FC57 /* sYamlApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		881675A11B67CD460041FC57 /* sYamlTests */ = {
@@ -472,7 +490,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				888C13A91B6B7E3C00A66CEF /* Main.storyboard in Resources */,
+				880672D61B6C076A00EE8F70 /* Main.storyboard in Resources */,
 				8816759A1B67CD460041FC57 /* Images.xcassets in Resources */,
 				881675BE1B6A14580041FC57 /* test.yaml in Resources */,
 			);
@@ -492,7 +510,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880672D21B6BCA9200EE8F70 /* sYaml.m in Sources */,
+				880672D21B6BCA9200EE8F70 /* sYamlC_enum_if.m in Sources */,
 				880672D31B6BCA9200EE8F70 /* sYaml.swift in Sources */,
 				880672CA1B6BCA7E00EE8F70 /* api.c in Sources */,
 				880672CB1B6BCA7E00EE8F70 /* dumper.c in Sources */,
@@ -517,18 +535,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880672A41B6BC3F800EE8F70 /* loader.c in Sources */,
-				881675B91B67F2660041FC57 /* sYaml.m in Sources */,
 				881675981B67CD460041FC57 /* ViewController.swift in Sources */,
-				880672A71B6BC3F800EE8F70 /* scanner.c in Sources */,
-				880672A11B6BC3F800EE8F70 /* api.c in Sources */,
-				880672A51B6BC3F800EE8F70 /* parser.c in Sources */,
 				881675961B67CD450041FC57 /* AppDelegate.swift in Sources */,
-				880672A21B6BC3F800EE8F70 /* dumper.c in Sources */,
-				880672A31B6BC3F800EE8F70 /* emitter.c in Sources */,
-				880672A61B6BC3F800EE8F70 /* reader.c in Sources */,
-				880672A81B6BC3F800EE8F70 /* writer.c in Sources */,
-				881675B41B67CD920041FC57 /* sYaml.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,7 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				881675A91B67CD460041FC57 /* sYamlTests.swift in Sources */,
-				881675BB1B68C4360041FC57 /* sYaml.m in Sources */,
+				881675BB1B68C4360041FC57 /* sYamlC_enum_if.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +555,7 @@
 			files = (
 				888C13951B6A530E00A66CEF /* main.swift in Sources */,
 				888C139A1B6A53A000A66CEF /* sYaml.swift in Sources */,
-				888C13991B6A539B00A66CEF /* sYaml.m in Sources */,
+				888C13991B6A539B00A66CEF /* sYamlC_enum_if.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +566,11 @@
 			isa = PBXTargetDependency;
 			target = 880672B01B6BCA6900EE8F70 /* sYaml */;
 			targetProxy = 880672BD1B6BCA6A00EE8F70 /* PBXContainerItemProxy */;
+		};
+		880672D51B6C072D00EE8F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880672B01B6BCA6900EE8F70 /* sYaml */;
+			targetProxy = 880672D41B6C072D00EE8F70 /* PBXContainerItemProxy */;
 		};
 		881675A41B67CD460041FC57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -754,19 +767,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"HAVE_CONFIG_H=1",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/libyaml/include",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
 				INFOPLIST_FILE = "$(PROJECT_DIR)/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -777,16 +780,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_CONFIG_H=1";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/libyaml/include",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
 				INFOPLIST_FILE = "$(PROJECT_DIR)/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/sYaml";
 			};
 			name = Release;
 		};
@@ -882,6 +878,7 @@
 				880672C61B6BCA6A00EE8F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		880672C71B6BCA6A00EE8F70 /* Build configuration list for PBXNativeTarget "sYamlTests" */ = {
 			isa = XCConfigurationList;
@@ -890,6 +887,7 @@
 				880672C91B6BCA6A00EE8F70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8816758B1B67CD450041FC57 /* Build configuration list for PBXProject "sYaml" */ = {
 			isa = XCConfigurationList;

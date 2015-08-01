@@ -9,7 +9,6 @@
 #ifndef sYaml_sYaml_Bridging_Header_h
 #define sYaml_sYaml_Bridging_Header_h
 
-#import <yaml.h>
-#import "sYaml.h"
+#import "sYamlC_enum_if.h"
 
 #endif
