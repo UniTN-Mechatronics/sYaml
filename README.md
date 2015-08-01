@@ -10,7 +10,9 @@ At the moment the project is experimental and supports Swift 1.2 and libyaml 1.1
 
 A better installation/usage guide will follow. For the moment, start by executing `./prepare_liyaml.sh`, then build and run the sYaml target, and look at its setting. 
 
-A framework for OS X and iOS is in preparation.
+Currently two targets are available: a OS X framework and a demo OS X app using the framework. The framework exposes the Swift module `sYaml`.
+
+Unit testing for the framework are in preparation.
 
 ## License
 
