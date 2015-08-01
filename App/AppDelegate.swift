@@ -38,7 +38,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let obj = ["Paolo", "Bosetti", [3, 7.45], ["name": "Paolo", "surname":"Bosetti", "age":44]]
     println("result: '\(yaml.dump(obj))'")
 
-    println("YAML version: \(yaml.versionString())")
+    println("YAML version: \(yaml.versionString)")
   }
 
   func applicationWillTerminate(aNotification: NSNotification) {

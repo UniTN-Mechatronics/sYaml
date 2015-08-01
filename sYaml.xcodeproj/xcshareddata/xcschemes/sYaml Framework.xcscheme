@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "888C13911B6A530E00A66CEF"
-               BuildableName = "sYamlMain"
-               BlueprintName = "sYamlMain"
+               BlueprintIdentifier = "880672B01B6BCA6900EE8F70"
+               BuildableName = "sYaml.framework"
+               BlueprintName = "sYaml"
+               ReferencedContainer = "container:sYaml.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "880672BA1B6BCA6A00EE8F70"
+               BuildableName = "sYamlTests.xctest"
+               BlueprintName = "sYamlTests"
                ReferencedContainer = "container:sYaml.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,13 +42,23 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "880672BA1B6BCA6A00EE8F70"
+               BuildableName = "sYamlTests.xctest"
+               BlueprintName = "sYamlTests"
+               ReferencedContainer = "container:sYaml.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "888C13911B6A530E00A66CEF"
-            BuildableName = "sYamlMain"
-            BlueprintName = "sYamlMain"
+            BlueprintIdentifier = "880672B01B6BCA6900EE8F70"
+            BuildableName = "sYaml.framework"
+            BlueprintName = "sYaml"
             ReferencedContainer = "container:sYaml.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -48,16 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "888C13911B6A530E00A66CEF"
-            BuildableName = "sYamlMain"
-            BlueprintName = "sYamlMain"
+            BlueprintIdentifier = "880672B01B6BCA6900EE8F70"
+            BuildableName = "sYaml.framework"
+            BlueprintName = "sYaml"
             ReferencedContainer = "container:sYaml.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -67,16 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "888C13911B6A530E00A66CEF"
-            BuildableName = "sYamlMain"
-            BlueprintName = "sYamlMain"
+            BlueprintIdentifier = "880672B01B6BCA6900EE8F70"
+            BuildableName = "sYaml.framework"
+            BlueprintName = "sYaml"
             ReferencedContainer = "container:sYaml.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
