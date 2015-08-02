@@ -45,14 +45,18 @@ public class YAML {
   public var versionString: String {
     return YAML_VERSION_STRING
   }
+  public var wrapLength: Int = 3
   
   public init() {
     
   }
-  
+
   deinit {
   
   }
+
+
+  // LOADING
   
   public func load(string: String = "---\n") -> (result: AnyObject, error: String?) {
     let yaml_parser = UnsafeMutablePointer<yaml_parser_t>.alloc(1)
@@ -170,7 +174,12 @@ public class YAML {
   func addObject(object: AnyObject, toDocument doc: UnsafeMutablePointer<yaml_document_t>) -> Int32? {
     var result: Int32 = 0
     if let ary = object as? Array<AnyObject> {
-      result = yaml_document_add_sequence(doc, nil, YAML_ANY_SEQUENCE_STYLE)
+      if ary.count > wrapLength {
+        result = yaml_document_add_sequence(doc, nil, YAML_ANY_SEQUENCE_STYLE)
+      }
+      else {
+        result = yaml_document_add_sequence(doc, nil, YAML_FLOW_SEQUENCE_STYLE)
+      }
       for element in ary {
         if let idx: Int32 = addObject(element, toDocument: doc) {
           yaml_document_append_sequence_item(doc, result, idx)
@@ -178,7 +187,12 @@ public class YAML {
       }
     }
     else if let map = object as? Dictionary<String, AnyObject> {
-      result = yaml_document_add_mapping(doc, nil, YAML_ANY_MAPPING_STYLE)
+      if map.count > wrapLength {
+        result = yaml_document_add_mapping(doc, nil, YAML_ANY_MAPPING_STYLE)
+      }
+      else {
+        result = yaml_document_add_mapping(doc, nil, YAML_FLOW_MAPPING_STYLE)
+      }
       for (key, value) in map {
         if let keyIndex: Int32 = addObject(key, toDocument: doc) {
           if let valueIndex: Int32 = addObject(value, toDocument: doc) {
@@ -201,9 +215,16 @@ public class YAML {
     else if object is Int {
       result = addObject("\(object)", toDocument: doc)!
     }
+    else if object is Printable {
+      result = addObject("\(object.description)", toDocument: doc)!
+    }
     else {
-      println("Skipping: \(object), \(object.dynamicType)")
-      return nil
+      if let str = object.string {
+        result = addObject("\(str)", toDocument: doc)!
+      }
+      else {
+        return nil
+      }
     }
     return result
   }

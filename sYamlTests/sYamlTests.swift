@@ -10,13 +10,28 @@ import Cocoa
 import XCTest
 import sYaml
 
+class MyTestClass {
+  let name: String = "Non-printable class"
+}
+
+class MyPrintableTestClass: Printable {
+  var description: String {
+    return "Printable class"
+  }
+}
+
 class sYamlTests: XCTestCase {
   let yaml = YAML()
-  let data: Dictionary<String, AnyObject> = ["int": 1, "flo": 3.14, "str": "Paolo", "ary": [1, 2, 3], "hsh":["a":1, "b":2]]
+  let test1 = MyTestClass()
+  let test2 = MyPrintableTestClass()
+  var data: Dictionary<String, AnyObject> = ["bool": true, "int": 1, "flo": 3.14, "str": "Paolo", "ary": [1, 2, 3], "hsh":["a":1, "b":2]]
 
   override func setUp() {
     super.setUp()
+    data["obj1"] = test1
+    data["obj2"] = test2
     println("YAML version: \(yaml.versionString)")
+    println(yaml.dump(data))
   }
   
   override func tearDown() {
