@@ -2,4 +2,5 @@
 /libyaml
 /DerivedData
 xcuserdata
+xcbaselines
 *.xccheckout

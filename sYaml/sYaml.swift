@@ -54,7 +54,7 @@ public class YAML {
   
   }
   
-  public func load(string: String = "---\n") -> (result: Any, error: String?) {
+  public func load(string: String = "---\n") -> (result: AnyObject, error: String?) {
     let yaml_parser = UnsafeMutablePointer<yaml_parser_t>.alloc(1)
     let yaml_document = UnsafeMutablePointer<yaml_document_t>.alloc(1)
     yaml_parser_initialize(yaml_parser)
@@ -67,19 +67,19 @@ public class YAML {
       return ("", "Error at \(yaml_parser.memory.problem_mark.line):\(yaml_parser.memory.problem_mark.column)")
     }
     let root = yaml_document_get_root_node(yaml_document)
-    let result: Any = self.nodeToValue(yaml_document, node: root)
+    let result: AnyObject = self.nodeToValue(yaml_document, node: root)
     yaml_parser_delete(yaml_parser)
     yaml_document.dealloc(1)
     yaml_parser.dealloc(1)
     return (result, nil)
   }
   
-  public func load(path: String) -> (result: Any, error: String?) {
+  public func load(path: String) -> (result: AnyObject, error: String?) {
     let dataString = String(contentsOfFile: path, encoding: NSUTF8StringEncoding, error: nil)
     return load(string: dataString!)
   }
   
-  func nodeToValue(document: UnsafeMutablePointer<yaml_document_t>, node: UnsafeMutablePointer<yaml_node_t>) -> Any {
+  func nodeToValue(document: UnsafeMutablePointer<yaml_document_t>, node: UnsafeMutablePointer<yaml_node_t>) -> AnyObject {
     switch node.memory.type.value {
     case YAML_SCALAR_NODE.value:
       let s = yaml_node_style(node)
@@ -87,12 +87,12 @@ public class YAML {
       var data = UnsafeMutablePointer<Int8>.alloc(len)
       yaml_node_get_value(node, &data)
       let scalar = NSString(bytesNoCopy: data, length: len, encoding: NSUTF8StringEncoding, freeWhenDone: true) as! String
-      let result: Any = parseScalar(scalar)
+      let result: AnyObject = parseScalar(scalar)
       return result
     case YAML_SEQUENCE_NODE.value:
       let start = yaml_sequence_item_start(node)
       let top = yaml_sequence_item_top(node)
-      var sequence = [Any]()
+      var sequence = [AnyObject]()
       for i in start..<top {
         let n = yaml_document_get_node(document, i.memory)
         sequence.append(self.nodeToValue(document, node: n))
@@ -101,11 +101,11 @@ public class YAML {
     case YAML_MAPPING_NODE.value:
       let start = yaml_mapping_pairs_start(node)
       let top = yaml_mapping_pairs_top(node)
-      var mapping = Dictionary<String, Any>()
+      var mapping = Dictionary<String, AnyObject>()
       for pair in start..<top {
         let k = yaml_document_get_node(document, pair.memory.key)
         let v = yaml_document_get_node(document, pair.memory.value)
-        mapping[(self.nodeToValue(document, node: k) as! AnyObject).description!] = self.nodeToValue(document, node: v)
+        mapping[self.nodeToValue(document, node: k).description!] = self.nodeToValue(document, node: v)
       }
       return mapping
     default:
@@ -113,7 +113,7 @@ public class YAML {
     }
   }
   
-  func parseScalar(str: String) -> Any {
+  func parseScalar(str: String) -> AnyObject {
     switch str {
     case "~", "nil", "null", "NULL":
       return ""
